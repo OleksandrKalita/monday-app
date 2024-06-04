@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "src/pages/home/index.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "src/pages/about/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "outputDirectory": "dist"
+  }
